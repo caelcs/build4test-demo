@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'uk.co.caeldev'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'uk.co.caeldev:builder4test:0.1.8'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+
+}
